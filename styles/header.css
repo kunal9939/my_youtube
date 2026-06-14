@@ -1,0 +1,155 @@
+p {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 7.5px 11.1px 7.5px;
+    height: 40px;
+    background-color: white;
+    z-index: 1;
+}
+
+.header-left {
+    margin-left: 10.5px;
+    width: 202.5px;
+    display: flex;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.menu-icon {
+    width: 30px;
+    margin-left: 1.5px;
+}
+
+.yt-logo {
+    margin-left: 18px;
+    width: 105px;
+}
+
+.header-middle {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.search-box {
+    flex: 1;
+    max-width: 520px;
+    width: 0;
+    height: 96%;
+    font-size: 15px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 22px 0px 0px 22px;
+    border: 2px solid rgb(203, 203, 203);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #3498db;
+    box-shadow: 0 0 4.5px rgba(52, 152, 219, 0.5);
+}
+
+.search-btn {
+    padding: 0px 20px;
+    border-radius: 0px 22px 22px 0px;
+    border: 2px solid rgb(203, 203, 203);
+    border-left: none;
+    height: 105%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn img {
+    width: 19px;
+}
+
+.mic-search {
+    height: 99%;
+    margin-left: 15px;
+    padding-left: 10.5px;
+    padding-right: 10px;
+    border-radius: 22px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mic-search img {
+    height: 21px;
+    margin-top: 8.7px;
+}
+
+.mic-search p {
+    font-size: 12px;
+    position: absolute;
+    top: 51px;
+    background-color: rgb(89, 89, 89);
+    color: white;
+    text-wrap-mode: nowrap;
+    padding: 10.5px;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mic-search:hover p {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.header-right {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: end;
+    height: 100%;
+    margin-right: 10.5px;
+}
+
+.header-right-element {
+    height: 99%;
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    padding-left: 7.5px;
+    padding-right: 12px;
+    border-radius: 22px;
+    background-color: rgb(233, 233, 233);
+    font-weight: 500;
+}
+
+.header-right-element img {
+    width: 22.5px;
+}
+
+.header-right-element p {
+    font-size: 15px;
+    margin-left: 7.5px;
+}
+
+.header-right img {
+    height: 99%;
+    border-radius: 22px;
+}

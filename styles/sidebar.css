@@ -1,0 +1,110 @@
+hr {
+    margin: 4.5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    left: 0px;
+    bottom: 0px;
+    width: 217.5px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+}
+
+.subscription,
+.home,
+.subscription-info,
+.profile,
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    padding: 7.5px 12px 7.5px 12px;
+    border-radius: 12px;
+}
+
+.subscription:hover,
+.home:hover,
+.subscription-info:hover,
+.profile:hover,
+.profile-info:hover {
+    background-color: rgb(240, 240, 240);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.subscription-info,
+.profile-info {
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+}
+
+.subscription-info p,
+.profile-info p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.subscription-info img,
+.profile-info img {
+    width: 15px;
+    margin-left: 6px;
+}
+
+.home img {
+    width: 24px;
+}
+
+.subscription img {
+    width: 24px;
+    border-radius: 13.5px;
+}
+
+.profile img {
+    width: 22.5px;
+}
+
+#show-more {
+    width: 22.5px;
+}
+
+.subscription p,
+.home p,
+.profile p {
+    font-size: 14.25px;
+    margin-left: 18px;
+    color: rgb(32, 32, 32);
+}
+
+a {
+    text-decoration: none;
+}
+
+.home p {
+    font-weight: 700;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+    border-radius: 6px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #727272; 
+}
+
+.sidebar:hover::-webkit-scrollbar-track {
+    background: rgb(223, 223, 223);
+}
